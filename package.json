@@ -1,0 +1,26 @@
+{
+  "name": "vehicle-sales-prediction",
+  "version": "1.0.0",
+  "description": "Simple ML project for used vehicle selling price and demand / days-to-sale prediction",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "train": "node src/train.mjs",
+    "predict": "node src/predict.mjs",
+    "train:demand": "node src/train-demand.mjs",
+    "predict:demand": "node src/predict-demand.mjs",
+    "demo": "node src/train.mjs && node src/predict.mjs",
+    "demo:demand": "node src/train-demand.mjs && node src/predict-demand.mjs"
+  },
+  "keywords": [
+    "machine-learning",
+    "regression",
+    "classification",
+    "vehicle",
+    "sales",
+    "demand"
+  ],
+  "license": "MIT"
+}
